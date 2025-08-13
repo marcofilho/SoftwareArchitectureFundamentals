@@ -1,4 +1,7 @@
-﻿namespace SOLID
+﻿using SOLID.LSP.Solution;
+using SOLID.OCP.Solution_With_Extension_Methods;
+
+namespace SOLID
 {
     public class Program
     {
@@ -13,10 +16,10 @@
             switch (opcao.KeyChar)
             {
                 case '1':
-                    //CaixaEletronico.Operacoes();
+                    ATM.Operations();
                     break;
                 case '2':
-                    //CalculoArea.Calcular();
+                    AreaCalculation.Calculate();
                     break;
             }
         }

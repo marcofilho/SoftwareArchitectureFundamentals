@@ -13,7 +13,7 @@
             Console.ReadKey();
         }
 
-        public static void Calcular()
+        public static void Calculate()
         {
             var square = new Square(5, 5);
             var rectangle = new Rectangle(10, 5);
