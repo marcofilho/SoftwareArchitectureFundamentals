@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- OOP", "1- OOP", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Modifiers", "2- Modifiers", "{17902C8A-D11B-48FD-9538-C42B9F33C336}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- SOLID", "3- SOLID", "{EF5971AB-241C-409C-A2B3-7DBF73FF5E21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4- DI", "4- DI", "{C049270F-8912-46B8-9A8A-73417DB76C2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5- Design Patterns", "5- Design Patterns", "{E4376776-1EE4-4C19-81F1-C281EE6A6B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{ACEA428C-3FBD-4628-B9BC-85D860CCF686}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACEA428C-3FBD-4628-B9BC-85D860CCF686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACEA428C-3FBD-4628-B9BC-85D860CCF686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACEA428C-3FBD-4628-B9BC-85D860CCF686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACEA428C-3FBD-4628-B9BC-85D860CCF686}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACEA428C-3FBD-4628-B9BC-85D860CCF686} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DC849A1-D9E1-4392-908A-98244D42F7F4}
+	EndGlobalSection
+EndGlobal
