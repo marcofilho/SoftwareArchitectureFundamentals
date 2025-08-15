@@ -23,11 +23,11 @@ namespace Project_A
 
     #endregion
 
-    #region Testes
+    #region Tests
 
-    class TesteClasses
+    class TestClasses
     {
-        public TesteClasses()
+        public TestClasses()
         {
             var publicClass = new Public();
             var privateClass = new Private();
