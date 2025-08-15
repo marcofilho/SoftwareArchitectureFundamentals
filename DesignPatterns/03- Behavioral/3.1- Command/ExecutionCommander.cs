@@ -2,7 +2,7 @@
 {
     public class ExecutionCommander
     {
-        public static void Executar()
+        public static void Execute()
         {
             var user = new User();
 

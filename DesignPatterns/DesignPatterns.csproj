@@ -6,9 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="01- Creational\1.1- Abstract Factory\" />
-    <Folder Include="01- Creational\1.2- Factory Method\" />
-  </ItemGroup>
-
 </Project>

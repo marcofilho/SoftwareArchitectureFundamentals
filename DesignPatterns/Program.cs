@@ -1,4 +1,7 @@
-﻿namespace DesignPatterns
+﻿using DesignPatterns.AbstractFactory;
+using DesignPatterns.FactoryMethod;
+
+namespace DesignPatterns
 {
     class Program
     {
@@ -34,31 +37,31 @@
             switch (opcao.KeyChar)
             {
                 case '1':
-                    ExecucaoAbstractFactory.Executar();
+                    ExecutionAbstractFactory.Execute();
                     break;
                 case '2':
-                    ExecucaoFactoryMethod.Executar();
+                    ExecutionFactoryMethod.Execute();
                     break;
                 case '3':
-                    ExecucaoSingleton.Executar();
+                    SingletonExecution.Execute();
                     break;
                 case '4':
-                    ExecucaoAdapter.Executar();
+                    ExecutionAdapter.Execute();
                     break;
                 case '5':
-                    ExecucaoFacade.Executar();
+                    ExecutionFacade.Execute();
                     break;
                 case '6':
-                    ExecucaoComposite.Executar();
+                    ExecutionComposite.Execute();
                     break;
                 case '7':
-                    ExecucaoCommand.Executar();
+                    ExecutionCommander.Execute();
                     break;
                 case '8':
-                    ExecucaoStrategy.Executar();
+                    ExecutionStrategy.Execute();
                     break;
                 case '9':
-                    ExecucaoObserver.Executar();
+                    ExecutionObserver.Execute();
                     break;
             }
 
