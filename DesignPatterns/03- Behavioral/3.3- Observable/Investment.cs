@@ -1,6 +1,4 @@
-﻿using DesignPatterns._03__Behavioral._3._3__Observable;
-
-namespace DesignPatterns
+﻿namespace DesignPatterns
 {
     // Subject
     public abstract class Investment
@@ -23,7 +21,7 @@ namespace DesignPatterns
                 if (_amount == value) return;
 
                 _amount = value;
-                Notificar();
+                Notify();
             }
         }
 
@@ -31,13 +29,13 @@ namespace DesignPatterns
         public void Subscribe(IObserver observer)
         {
             _observers.Add(observer);
-            Console.WriteLine($"Notificando que {observer.Name} está recebendo atualizãções de {Simbol}");
+            Console.WriteLine($"Notifying that {observer.Name} is receiving updates from {Simbol}");
         }
 
         public void UnSubscribe(IObserver observador)
         {
             _observers.Remove(observador);
-            Console.WriteLine($"Notificando que {observador.Nome} NÃO está recebendo atualizãções de {Simbol}");
+            Console.WriteLine($"Notifying that {observador.Name} is not receiving updates from {Simbol}");
         }
 
         private void Notify()

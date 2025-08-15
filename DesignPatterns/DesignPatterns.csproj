@@ -10,7 +10,6 @@
     <Folder Include="01- Creational\1.1- Abstract Factory\" />
     <Folder Include="01- Creational\1.2- Factory Method\" />
     <Folder Include="02- Structural\2.1- Adapter\" />
-    <Folder Include="02- Structural\2.2- Facade\" />
     <Folder Include="03- Behavioral\3.2- Strategy\" />
   </ItemGroup>
 
